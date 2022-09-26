@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* ---------------------------------body------------------------------------- */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
+  margin-top: 5%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+/* ------------------------courses---------------------------- */
+
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+/* ---------------------------locations-------------------------------- */
+.locations {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------recipies-------------------------------------- */
+.recipies {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 150px;
+}
+
+
+
+
+/* ------------------------------------reviews-------------------------------------------- */
+
+
+.reviews{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 150px;
+}
+.row h1 {
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 25px;
   }
-  to {
-    transform: rotate(360deg);
+  .nav-links {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 0.5s;
+  }
+  .nav-links ul {
+    padding: 30px;
+  }
+
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links ul li a:hover{
+       color: black;
+       font-size: 17px;
+       transition: 0.5s;
+  }
+
+  nav .fa-solid {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .layer {
+    color: white;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  .layer:hover {
+    background: rgba(4, 9, 30, 0.7);
+  }
+  .final{
+    margin-top: 100px;
   }
 }
