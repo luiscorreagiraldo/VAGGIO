@@ -120,8 +120,7 @@ function App() {
                   name="BENEDICT"
                   lastName="CUMBERATCH"
                   reviewText="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus necessitatibus laudantium harum ducimus doloribus?
-                  Veniam, quo cumque ex"
+                  Voluptatibus necessitatibus laudantium harum ducimus doloribus."
                />
 
                <Review
@@ -129,9 +128,7 @@ function App() {
                   name="ANGELINA"
                   lastName="JOLIE"
                   reviewText="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus necessitatibus laudantium harum ducimus doloribus?
-                  Veniam, quo cumque ex
-                </p>"
+                  Voluptatibus necessitatibus laudantium harum ducimus."
                />
 
                <Review
