@@ -1,15 +1,18 @@
 import React from "react";
 import "../hojas-de-estilo/header.css"
-
+import logo from "../imagenes/logo.png"
 
 function Header() {
 
     return(
+
+
+      
     <section className="header">
             <nav>
-               <a href="index.html"> <img src="C:\Users\luisc\OneDrive\Escritorio\PROYECTOS\VAGGIO\src\imagenes\logo.png" alt='restaurant logo' /></a>
+               <a href="index.html"> <img src={logo} alt='restaurant logo' /></a>
                <div className="nav-links" id="navLinks">
-                  <i className="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                  <i className="fa-solid fa-xmark" onClick="hideMenu()"></i>
 
                   <ul>
                      <li><a href="/">HOME</a></li>

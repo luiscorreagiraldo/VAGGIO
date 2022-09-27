@@ -17,12 +17,12 @@ function Review(props) {
         {props.reviewText}
       </p>
       <div className="clients-layer"></div>
+      
 
-      <i className="fa-solid fa-star"></i>
-      <i className="fa-solid fa-star"></i>
-      <i className="fa-solid fa-star"></i>
-      <i className="fa-solid fa-star"></i>
+      {props.children}
 
+
+    
     </div>
   </div>)
 }

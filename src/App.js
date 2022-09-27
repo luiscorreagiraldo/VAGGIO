@@ -11,8 +11,8 @@ function App() {
    return (
       <div className="App">
 
-         
-         <Header/>
+
+         <Header />
 
 
 
@@ -121,15 +121,28 @@ function App() {
                   lastName="CUMBERATCH"
                   reviewText="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Voluptatibus necessitatibus laudantium harum ducimus doloribus."
-               />
+               > <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i></Review>
 
                <Review
+
+
+
                   reviewImage="2"
                   name="ANGELINA"
                   lastName="JOLIE"
                   reviewText="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Voluptatibus necessitatibus laudantium harum ducimus."
-               />
+               >
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+
+               </Review>
 
                <Review
                   reviewImage="3"
@@ -138,7 +151,12 @@ function App() {
                   reviewText="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Voluptatibus necessitatibus laudantium harum ducimus doloribus?
                   Veniam, quo cumque ex"
-               />
+               >
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+
+               </Review>
 
 
 
@@ -146,7 +164,7 @@ function App() {
          </section>
 
 
-         <Footer/>
+         <Footer />
 
       </div>
    );
