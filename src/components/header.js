@@ -15,11 +15,13 @@ function Header() {
                   <i className="fa-solid fa-xmark" onClick="hideMenu()"></i>
 
                   <ul>
-                     <li><a href="/">HOME</a></li>
-                     <li><a href="/">ABOUT US</a></li>
-                     <li><a href="/">COURSES</a></li>
-                     <li><a href="/">RESERVATIONS</a></li>
-                     <li><a href="/">CONTACT US</a></li>
+                     <li><a href="">HOME</a></li>
+                     <li><a href="#courses">COURSES</a></li>
+                     <li><a href="#locations">LOCATIONS</a></li>
+                     <li><a href="#recipies">BEST RECIPIES</a></li>
+                     <li><a href="#reviews">REVIEWS</a></li>
+                     <li><a href="#about">ABOUT US</a></li>
+
                   </ul>
                </div>
                <i className="fa-solid fa-bars" onclick="showMenu()"></i>

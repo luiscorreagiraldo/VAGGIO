@@ -21,7 +21,7 @@ function App() {
 
 
 
-         <section className="course">
+         <section className="course" id="courses">
             <h1>Our New Courses</h1>
             <p>
                Now we have culinary courses for you to become the cook you´ve always
@@ -51,9 +51,9 @@ function App() {
 
          {/*---------LOCATIONS---------> */}
 
-         <section className="locations">
+         <section className="locations" id="locations">
             <h1>Our Locations</h1>
-            <p>come to visit us</p>
+            <p >come to visit us</p>
 
 
             <div className="row">
@@ -82,7 +82,7 @@ function App() {
          {/* -------------------------BEST RECIPIES--------------------------- */}
 
 
-         <section className="recipies">
+         <section className="recipies" id="recipies">
             <h1>Our best recipies</h1>
             <p>you must try them!</p>
 
@@ -111,7 +111,7 @@ function App() {
 
          {/* ----------------------REVIEWS------------------------- */}
 
-         <section className="reviews">
+         <section className="reviews" id="reviews">
             <h1>What Our Clients Says</h1>
             <div className="row">
 
