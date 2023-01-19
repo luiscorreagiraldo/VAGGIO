@@ -5,6 +5,7 @@ import Recipie from "./components/bestRecipies";
 import Review from './components/reviews';
 import Header from "./components/header";
 import Footer from "./components/footer"
+import Banner from "./components/banner"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
 
          <Header />
+         <Banner />
 
 
 
@@ -27,7 +29,7 @@ function App() {
                Now we have culinary courses for you to become the cook you´ve always
                wanted to be!
             </p>
-            <div className="row">
+            <div className="row-custom">
                <Curso
                   name="DESSERT MAKING"
                   description="learn how to make coral reef inspired desserts"
@@ -56,7 +58,7 @@ function App() {
             <p>come to visit us</p>
 
 
-            <div className="row">
+            <div className="row-custom">
 
                <Location
                   locationImage="1"
@@ -87,7 +89,7 @@ function App() {
             <p>you must try them!</p>
 
 
-            <div className="row">
+            <div className="row-custom">
                <Recipie
                   recipeImage="1"
                   name="GRILLED LOBSTER"
@@ -113,7 +115,7 @@ function App() {
 
          <section className="reviews">
             <h1>What Our Clients Says</h1>
-            <div className="row">
+            <div className="row-custom">
 
                <Review
                   reviewImage="1"

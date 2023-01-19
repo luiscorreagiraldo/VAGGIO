@@ -1,11 +1,18 @@
+*{
+ box-sizing: border-box;
+}
 
+html{
+  scroll-behavior: smooth;
+}
 
 /* ---------------------------------body------------------------------------- */
 
-.row {
+.row-custom {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
+  gap:25px;
 }
 
 
@@ -61,7 +68,7 @@
   text-align: center;
   padding-top: 150px;
 }
-.row h1 {
+.row-custom h1 {
   text-align: center;
   margin: auto;
 }
@@ -139,7 +146,7 @@
     font-size: 22px;
     cursor: pointer;
   }
-  .row {
+  .row-custom {
     flex-direction: column;
   }
   .layer {
