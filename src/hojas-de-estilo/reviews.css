@@ -6,7 +6,6 @@
     margin-top: 8px;
     margin-bottom: 5%;
     position: relative;
-    /* overflow: hidden; */
     height: 580px;
     text-align: left;
   }
@@ -33,13 +32,16 @@
   .clients-layer:hover{
     background: none;
   }
-  .client{
+  #client{
     color: black;   
     text-align: left;
-    font-size: 20;
+    font-size: 25px;
+    margin-top: 10px;
   }
   .reviews-col div p{
     padding-bottom: 50px;
+    padding-left: 0;
+
   }
   .reviews-col p {
     padding-bottom: 20px;

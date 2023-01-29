@@ -2,8 +2,8 @@ h1 {
   font-size: 36px;
   font-weight: 600;
 }
-h3 {
-  font-size: 1.17em;
+#courseName {
+  font-size: 20px;
   text-align: center;
   font-weight: 600;
   margin: 10px;

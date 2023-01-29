@@ -9,7 +9,7 @@ function Review(props) {
      alt="client"
      />
     <div>
-      <h3 className="client">
+      <h3 id="client">
         {props.name} <br />
         {props.lastName}
       </h3>
