@@ -12,19 +12,19 @@ SwiperCore.use([Autoplay]);
 
 const ReviewSlider = () => {
   return (
-    <div className="container py-4 px-4 justify-content-center">
+    <div className="container-fluid py-4 px-0 justify-content-center">
       <Swiper
-        freeMode={true}
-        grabCursor={true}
-        modules={[FreeMode]}
-        className="mySwiper"
-        slidesPerView={3}
-        spaceBetween={30}
-        loop={true}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
+           freeMode={true}
+           grabCursor={true}
+           modules={[FreeMode]}
+           className="mySwiper"
+           slidesPerView={"auto"}
+           spaceBetween={30}
+           loop={true}
+           autoplay={{
+             delay: 3000,
+             disableOnInteraction: false,
+           }}
       >
         <SwiperSlide className="reviewSlider">
           <Review
@@ -41,7 +41,7 @@ const ReviewSlider = () => {
           </Review>
         </SwiperSlide>
 
-        <SwiperSlide id="reviewSlider">
+        <SwiperSlide >
           <Review
             reviewImage="2"
             name="ANGELINA"
@@ -57,7 +57,7 @@ const ReviewSlider = () => {
           </Review>
         </SwiperSlide>
 
-        <SwiperSlide id="reviewSlider">
+        <SwiperSlide>
           <Review
             reviewImage="3"
             name="CATE"

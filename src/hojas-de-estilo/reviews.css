@@ -1,58 +1,47 @@
+.reviews-col {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  text-align: left;
+}
 
-.reviews-col{
-    flex-basis: 31%;
-    margin: 30px;
-    border-radius: 10px;
-    margin-top: 8px;
-    margin-bottom: 5%;
-    position: relative;
-    height: 580px;
-    text-align: left;
-  }
-  
-  .reviews-col img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-  
-  .clients-layer{
-    position: absolute;
-    background: white;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    transition: 1s;
-    text-align: center;
-    opacity: 0.5;
-    overflow: hidden;
-  }
-  .clients-layer:hover{
-    background: none;
-  }
-  #client{
-    color: black;   
-    text-align: left;
-    font-size: 25px;
-    margin-top: 10px;
-  }
-  .reviews-col div p{
-    padding-bottom: 50px;
-    padding-left: 0;
+.reviews-col img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 6/9;
+}
 
-  }
-  .reviews-col p {
-    padding-bottom: 20px;
-  }
-  .reviews-col .fa-star  {
-    color: #f44336;
-   
-  }
-  
-  .half-star{
-    color: #f44336;
-  }
-  
-  
+.clients-layer {
+  position: absolute;
+  background: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  aspect-ratio: 6/9;
+  text-align: center;
+  opacity: 0.5;
+  overflow: hidden;
+}
+.clients-layer:hover {
+  background: none;
+}
+#client {
+  color: black;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.reviews-col p {
+  padding-bottom: 20px;
+}
+.reviews-col .fa-star {
+  color: #f44336;
+}
+
+.half-star {
+  color: #f44336;
+}

@@ -5,7 +5,7 @@ function Review(props) {
   return(
     <div className="reviews-col">
     <img
-     src={require(`../imagenes/clients-images/person${props.reviewImage}.jpg`)} 
+     src={require(`../imagenes/clients-images/person${props.reviewImage}.jpg`)}
      alt="client"
      />
     <div>
@@ -17,12 +17,8 @@ function Review(props) {
         {props.reviewText}
       </p>
       <div className="clients-layer"></div>
-      
 
       {props.children}
-
-
-    
     </div>
   </div>)
 }

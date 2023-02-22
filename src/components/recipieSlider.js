@@ -18,36 +18,33 @@ const RecipieSlider = () => {
         grabCursor={true}
         modules={[FreeMode]}
         className="mySwiper"
-        slidesPerView={3}
+        slidesPerView={"auto"}
         spaceBetween={30}
         loop={true}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}>
-
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // }}
+      >
         <SwiperSlide>
-        <Recipie recipeImage="1" name="GRILLED LOBSTER" />
+          <Recipie recipeImage="1" name="GRILLED LOBSTER" />
         </SwiperSlide>
 
-
         <SwiperSlide>
-        <Recipie recipeImage="2" name="SALMON ROLL" />
-        </SwiperSlide>
-        
-        <SwiperSlide>
-        <Recipie recipeImage="3" name="BAKED SHRIMP" />
-        </SwiperSlide>
-        
-        <SwiperSlide>
-        <Recipie recipeImage="4" name="COHO SALMON" />
-        </SwiperSlide>
-        
-        <SwiperSlide>
-        <Recipie recipeImage="5" name="SHIRMP PASTA" />
+          <Recipie recipeImage="2" name="SALMON ROLL" />
         </SwiperSlide>
 
+        <SwiperSlide>
+          <Recipie recipeImage="3" name="BAKED SHRIMP" />
+        </SwiperSlide>
 
+        <SwiperSlide>
+          <Recipie recipeImage="4" name="COHO SALMON" />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Recipie recipeImage="5" name="SHIRMP PASTA" />
+        </SwiperSlide>
       </Swiper>
     </div>
   );

@@ -60,64 +60,12 @@ function App() {
       <section className="recipies" id="recipies">
         <h1>Our best recipies</h1>
         <p>you must try them!</p>
-     
 
         <RecipieSlider></RecipieSlider>
       </section>
 
       {/* ----------------------REVIEWS------------------------- */}
 
-      {/* <section className="reviews" id="reviews">
-            <h1>What Our Clients Says</h1>
-            <div className="row-custom">
-
-               <Review
-                  reviewImage="1"
-                  name="BENEDICT"
-                  lastName="CUMBERATCH"
-                  reviewText="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus necessitatibus laudantium harum ducimus doloribus."
-               > <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i></Review>
-
-               <Review
-
-
-
-                  reviewImage="2"
-                  name="ANGELINA"
-                  lastName="JOLIE"
-                  reviewText="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus necessitatibus laudantium harum ducimus."
-               >
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-
-               </Review>
-
-               <Review
-                  reviewImage="3"
-                  name="CATE"
-                  lastName="BLANCHETT"
-                  reviewText="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus necessitatibus laudantium harum ducimus doloribus?
-                  Veniam, quo cumque ex"
-               >
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-
-               </Review>
-
-
-
-            </div>
-         </section> */}
       <h1>What Our Clients Says</h1>
 
       <section className="reviews" id="reviews">
