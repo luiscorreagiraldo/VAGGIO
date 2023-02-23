@@ -18,13 +18,25 @@ const RecipieSlider = () => {
         grabCursor={true}
         modules={[FreeMode]}
         className="mySwiper"
-        slidesPerView={"auto"}
+        slidesPerView={1}
         spaceBetween={30}
         loop={true}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        breakpoints={{
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+
+
+        }}
       >
         <SwiperSlide>
           <Recipie recipeImage="1" name="GRILLED LOBSTER" />

@@ -66,41 +66,40 @@ nav img {
 
 .mobile-menu-opened {
   background: #f44336;
-
 }
-.mobile-menu-opened ul li a{
- color: #fff;
+.mobile-menu-opened ul li a {
+  color: #fff;
 }
 
-.mobile-menu-opened ul li a:hover{
+.mobile-menu-opened ul li a:hover {
   color: black;
   transition: 0.5s;
- }
-.offcanvas-header{
+}
+.offcanvas-header {
   background: #f44336;
 }
 
 /* MOBILE MENU ENDS*/
 
-
-
 /* scrolled logo  */
-.scrolled-navbar-logo{
-margin-top: 13px;
+.scrolled-navbar-logo {
+  margin-top: 13px;
 }
 
 @media (min-width: 700px) {
   .button-hamburger {
     display: none;
   }
-  .nav {
-    padding: 10px 9px;
-  }
-
 }
 
 @media (max-width: 700px) {
-  .scrolled-navbar-logo{
+  .scrolled-navbar-logo {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 701px) {
+  nav {
+    padding: 3rem;
   }
 }
