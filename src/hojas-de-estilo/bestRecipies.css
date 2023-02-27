@@ -51,27 +51,3 @@
   opacity: 1;
   font-weight: bold;
 }
-@media (min-width: 700px) {
-  .recipe-layer h3 {
-    font-size: 20px;
-  }
-  .swiper .swiper-slide {
-    width: 201px;
-}
-}
-
-@media (min-width: 1200px) {
-  .recipe-layer h3 {
-    font-size: 26px;
-  }
-}
-
-/* @media (min-width: 576px){
-  .container {
-    width: 408px;
-}
-}
-
-.container {
-  width: 1068px;
-} */

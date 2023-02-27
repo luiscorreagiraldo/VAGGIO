@@ -1,5 +1,11 @@
 
 
+.swiper .swiper-wrapper .swiper-slide{
+  width: 260px;
+}
+
+
+
 
 h1 {
   text-align: center;
